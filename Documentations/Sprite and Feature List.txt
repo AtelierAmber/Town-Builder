@@ -1,0 +1,58 @@
+Sprite and Feature List
+
+Sprites (Ordered by priority in Groups)
+
+Natural
+  |  Grass Texture
+  |  Water Texture
+  |  Beach Texture
+  |  Trees : <Birch, Pine, Oak> {Spring/Summer, Fall, Winter}
+  |  Sticks : <Pile>
+  |  Tree Stump
+  |  Tall Grasses : <2 or 3 types>
+  |  Berry Bushes : <Blueberry, Rasberry, Blackberry (and whatever others you want)>
+  |  Rocks : <Large mineable rocks, Small stones>
+  |  Flowers : <Whatever colors you want>
+  |  Bushes : {Spring/Summer, Fall, Winter}
+  |  Mushrooms : <Red, Brown, White, Speckled>
+  |  Hoed Ground
+  |  Wheat
+  |  Dirt Path texture
+  |  Grass and Stone, Path Texture
+  |  Lily pads : <Flower on top, no flower>
+
+Constructables Stage 1
+  |  Campfire
+  |  Cooking Spicket + Fire
+  |  Camping Tent
+  |  Torch : <Handheld, Standup>
+  |  Sleeping Bag
+  |  Carpenters Bench
+  |  Stack of Logs
+  |  Single Log
+  |  Wooden Chest : <Single and Double>
+  |  Storage Crate : <Barrel, Crate, Box>
+  |  Fish Rack (Ask me) : <Empty, Few fish, Full of fish>
+  |  Tree Stump With Axe in it
+  |  Fence <Front<Middle, Left, Right>, Side front>
+  |  Boat
+  |  Dock
+  
+Constructables Stage 2
+  |  Cabin Walls : <Front, Left corner, Right corner>
+  |  Cabin Roof : <Front slope, Left corner, Right corner>
+  
+Animals
+  |  Squirrel
+  |  Dear : <Doe, Buck, Fawn>
+  |  Bear : <Adult, Cub>
+  |  Fox
+  |  Fish
+  
+People
+  |  Normal Citizen
+  |  Blacksmith
+  |  Tailor
+  |  Wood Worker
+  |  Lumberjack
+  |  Miner

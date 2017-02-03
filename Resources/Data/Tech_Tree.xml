@@ -1,0 +1,33 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<Tree>
+  <Era name="Ancient" depends="">
+    <tech name="Agriculture">
+      <depends>
+      </depends>
+      <description>
+      Unlock the power of life! You're eventually going to run out of berries to
+      eat right? Just make your own!
+      </description>
+      <unlocks>
+        <constructable name="oFence"/>
+        <tool name="hoe"/>
+        <profession name="farmer"/>
+        <object name="oSeed"/>
+      </unlocks>
+    </tech>
+    <tech name="">
+      <depends>
+      </depends>
+    </tech>
+    <tech name="">
+      <depends>
+      </depends>
+    </tech>
+  </Era>
+  <Era name="Classical" depends="Ancient">
+    <tech name="">
+    
+    </tech>
+  </Era>
+</Tree>
