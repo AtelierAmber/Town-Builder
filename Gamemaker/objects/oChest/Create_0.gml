@@ -1,0 +1,15 @@
+/// @description Initialize the chest
+open = false;
+
+//Check for nearby chest
+var cOther = collision_rectangle(x-11, y-7, x+10, y-4, oChest, false, true);
+if(cOther != noone){
+  sprite_index = sLargeChest;
+  x -= (x-cOther.x)/2;
+  y -= (y-cOther.y)/2;
+  with(cOther) instance_destroy();
+}else{
+  sprite_index = sSmallChest;
+}
+image_speed = 0;
+image_index = 0;
