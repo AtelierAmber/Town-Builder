@@ -1,8 +1,10 @@
 ///getInput()
-kLeftPress = keyboard_check(kLeft);
-kRightPress = keyboard_check(kRight);
-kUpPress = keyboard_check(kUp);
-kDownPress = keyboard_check(kDown);
+kLeftDown = keyboard_check(kLeft);
+kRightDown = keyboard_check(kRight);
+kUpDown = keyboard_check(kUp);
+kDownDown = keyboard_check(kDown);
+
+mMiddleDown = mouse_check_button(mMiddle);
 
 kEscapePress = keyboard_check_pressed(kEscape);
 
