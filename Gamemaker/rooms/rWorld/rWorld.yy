@@ -12584,7 +12584,7 @@
             "hborder": 32,
             "hport": 480,
             "hspeed": -1,
-            "hview": 480,
+            "hview": 384,
             "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
