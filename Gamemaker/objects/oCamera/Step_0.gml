@@ -12,3 +12,5 @@ x = clamp(x, 0, room_width - cameraWidth);
 y = clamp(y, 0, room_height - cameraHeight);
     
 camera_set_view_pos(viewCamera, x, y);
+
+audio_listener_position(x + (cameraWidth/2), y + (cameraHeight/2), 0);
