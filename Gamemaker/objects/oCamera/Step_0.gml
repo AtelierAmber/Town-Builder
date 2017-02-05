@@ -20,15 +20,15 @@ var view_w = camera_get_view_width(viewCamera);
 var view_h = camera_get_view_height(viewCamera);
 
 //Get new sizes by interpolating current and target zoomed size
-var new_w = lerp(view_w, cameraZoom * cameraWidth, RATE);
-var new_h = lerp(view_h, cameraZoom * cameraHeight, RATE);
+cameraWidth = lerp(view_w, cameraZoom * DEFAULT_WIDTH, RATE);
+cameraHeight = lerp(view_h, cameraZoom * DEFAULT_HEIGHT, RATE);
 
 //Apply the new size
-camera_set_view_size(viewCamera, new_w, new_h);    
+camera_set_view_size(viewCamera, cameraWidth, cameraHeight);    
 
 //Get the shift necessary to re-align the view.
-x = x - (new_w - view_w) * 0.5;
-y = y - (new_h - view_h) * 0.5;
+x = x - (cameraWidth - view_w) * 0.5;
+y = y - (cameraHeight - view_h) * 0.5;
 
 x = clamp(x, 0, room_width - cameraWidth);
 y = clamp(y, 0, room_height - cameraHeight);
