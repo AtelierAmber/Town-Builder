@@ -3,11 +3,12 @@ sprite = noone;
 spriteID = 0;
 object = noone;
 menuParent = noone;
-//x is the ix pos, y is the iy pos
+//x is the itemx pos, y is the itemy pos
 ix = x;
 iy = y;
-guiScale = camera_get_view_width(view_get_camera(view_current))/window_get_width();
-show_debug_message(guiScale);
+guiScale = oCamera.cameraWidth/window_get_width();
 
 image_xscale = guiScale;
 image_yscale = guiScale;
+x *= guiScale;
+y *= guiScale;

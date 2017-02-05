@@ -12515,8 +12515,8 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "depth": 200,
-            "grid_x": 16,
-            "grid_y": 16,
+            "grid_x": 60,
+            "grid_y": 60,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -12534,11 +12534,11 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4294111986
+                "Value": 4294967295
             },
             "hspeed": 0,
             "htiled": true,
-            "spriteId": "9a9aaddb-469c-45e5-9b34-db7c6c5ebef1",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,
