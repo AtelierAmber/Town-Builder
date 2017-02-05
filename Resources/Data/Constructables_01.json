@@ -1,0 +1,24 @@
+[
+  {
+    "OBJECT" : oCampfire,
+    "SPRITE" : sCampfire,
+    "SPRITE_ID" : 1,
+    "RESOURCES" : {0 : 2, 2 : 1, 1 : 1}    
+  },
+  {
+    "OBJECT" : oTent,
+    "SPRITE" : sTent,
+    "SPRITE_ID" : 0,
+    "RESOURCES" : {0 : 2, 4 : 2}    
+  },{
+    "OBJECT" : oChest,
+    "SPRITE" : sSmallChest,
+    "SPRITE_ID" : 0,
+    "RESOURCES" : {}    
+  },{
+    "OBJECT" : oFence,
+    "SPRITE" : sShortFence,
+    "SPRITE_ID" : 0,
+    "RESOURCES" : {}    
+  }
+]
