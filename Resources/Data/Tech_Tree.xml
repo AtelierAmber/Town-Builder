@@ -15,9 +15,8 @@
       <unlocks>
         <constructable name="Fence"/>
         <constructable name="CompostBin"/>
-        <object name="Fertilizer"/>
-        <object name=""/>
-        <object name="Seed"/>
+        <item name="Fertilizer"/>
+        <item name="Seed"/>
         <tool name="hoe"/>
         <profession name="farmer"/>
       </unlocks>
@@ -34,9 +33,23 @@
         vigor and your able to keep more plants under control!
       </description>
     </tech>
-    <tech name="">
+    <tech name="Weaving">
       <depends>
+        <techDep name="Gardening"/>
       </depends>
+      <flavorText>
+        Interlacing the strings of time. Sort of.
+      </flavorText>
+      <description>
+        Your people's clothing is starting to rot away, leaving them exposed to
+        the elements. No more! For with your new weavers they won't go cold! So
+        long as you have the resources that is...
+      </description>
+      <unlocks>
+        <item name="Hemp Canvas"/>
+        <object name="Loom"/>
+        <profession name="weaver"/>
+      </unlocks>
     </tech>
   </Era>
   
