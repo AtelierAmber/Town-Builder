@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "6dc07c44-30de-4e12-8aa5-9209662461ed",
+            "Value": {
+                "id": "61756945-e692-4e3d-8398-df01cb6e1b15",
+                "resourcePath": "sprites\\sBackground\\sBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "736f888f-f471-4f6a-8633-b30eb67c0a28",
             "Value": {
                 "id": "b40b1716-12b9-49cf-978e-1d7dfd9454f5",
@@ -319,6 +327,22 @@
             }
         },
         {
+            "Key": "84fdc213-a40f-4717-9bdf-937f24bf8b3e",
+            "Value": {
+                "id": "4ea630ea-be79-423f-baee-6a7455c6d5c3",
+                "resourcePath": "datafiles_yy\\Constructables.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "87bac2bf-7847-4caf-9645-fd677e46f3f3",
+            "Value": {
+                "id": "00765c58-8d9e-4795-b66d-a505739e78ae",
+                "resourcePath": "datafiles_yy\\Items.xml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8b9ef76c-e0e4-4a4d-adcc-ccc4d843e820",
             "Value": {
                 "id": "97efb489-9226-467f-9f40-ed04eaadc64a",
@@ -335,19 +359,19 @@
             }
         },
         {
+            "Key": "91bf8571-6449-4568-a21c-1b57572bd10d",
+            "Value": {
+                "id": "435cc8e4-4346-4cd2-888e-8b2ecd47a7bb",
+                "resourcePath": "datafiles_yy\\Tech_Tree.xml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "96ff733d-6205-4353-8d09-dc5373c28e94",
             "Value": {
                 "id": "a481b9a9-b133-4564-ae13-cc73c4ac4f05",
                 "resourcePath": "views\\96ff733d-6205-4353-8d09-dc5373c28e94.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9a9aaddb-469c-45e5-9b34-db7c6c5ebef1",
-            "Value": {
-                "id": "80f24132-77a1-4a48-9669-6c7d8132c30b",
-                "resourcePath": "sprites\\sGrassBackground\\sGrassBackground.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -387,14 +411,6 @@
             "Value": {
                 "id": "35fcae92-5ad2-4831-84f3-b137f7dbf92c",
                 "resourcePath": "scripts\\getInput\\getInput.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b72ccbbd-5ea2-4f96-ab39-da452e2e224c",
-            "Value": {
-                "id": "d2e4c819-4282-41aa-8ae7-d4b8be5cbfa3",
-                "resourcePath": "scripts\\perlinNoice\\perlinNoice.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -487,14 +503,6 @@
             }
         },
         {
-            "Key": "edc653a9-cb5f-4ff3-885f-b9c4b601c11f",
-            "Value": {
-                "id": "9f90c004-f438-4ae3-8f1f-a41008aababa",
-                "resourcePath": "sprites\\sShortFence\\sShortFence.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ee2f204a-da94-4cb1-a8fb-ec510afcf027",
             "Value": {
                 "id": "d8bda292-4bbf-4ce0-b3c0-33192e87f315",
@@ -508,6 +516,14 @@
                 "id": "a9be3209-de6f-4900-9944-d84a0678e9d0",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4527347-78f9-4249-a390-e67f9fc55624",
+            "Value": {
+                "id": "59cba0ce-5ea7-4b33-bba1-b59d5ca75e43",
+                "resourcePath": "scripts\\loadJSON\\loadJSON.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -530,7 +546,7 @@
     "script_order": [
         "aff96dab-ee20-4337-b90a-445b04929f19",
         "209b16da-ba06-4022-a6df-8ef14ae62358",
-        "b72ccbbd-5ea2-4f96-ab39-da452e2e224c"
+        "f4527347-78f9-4249-a390-e67f9fc55624"
     ],
     "tutorial": ""
 }

@@ -1,8 +1,8 @@
 {
-    "id": "b72ccbbd-5ea2-4f96-ab39-da452e2e224c",
+    "id": "f4527347-78f9-4249-a390-e67f9fc55624",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "perlinNoice",
+    "name": "loadJSON",
     "IsCompatibility": false,
     "IsDnD": false
 }
