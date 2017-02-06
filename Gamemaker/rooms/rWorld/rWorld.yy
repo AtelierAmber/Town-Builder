@@ -23,8 +23,8 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "depth": 0,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 60,
+            "grid_y": 60,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -49,8 +49,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_37B2ECE1",
-                    "x": 144,
-                    "y": 144,
+                    "x": 60,
+                    "y": 120,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -121,8 +121,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7E579CB3",
-                    "x": 104,
-                    "y": 143,
+                    "x": 180,
+                    "y": 120,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -145,8 +145,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_63E1C601",
-                    "x": 122,
-                    "y": 143,
+                    "x": 240,
+                    "y": 120,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -12538,7 +12538,7 @@
             },
             "hspeed": 0,
             "htiled": true,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "6dc07c44-30de-4e12-8aa5-9209662461ed",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,
