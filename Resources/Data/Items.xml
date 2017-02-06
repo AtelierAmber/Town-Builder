@@ -1,0 +1,61 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<root>
+  <resources>
+    <resource name="Stick" ID=0>
+      <flavorText>
+        Sticking together since 385 million BC.
+      </flavorText>
+      <features>
+        <held>true</held>
+        <throwable>true</throwable>
+        <damage>1</damage>
+      </features>
+    </resource>
+    <resource name="Stone" ID=1>
+      <flavorText>
+        They make great pets!
+      </flavorText>
+      <features>
+        <held>true</held>
+        <throwable>true</throwable>
+        <damage>2</damage>
+      </features>
+    </resource>
+    <resource name="Flint" ID=2>
+      <flavorText>
+        Fire!?
+      </flavorText>
+      <features>
+        <held>false</held>
+        <throwable>false</throwable>
+        <damage>0</damage>
+      </features>
+    </resource>
+    <resource name="Hemp" ID=3>
+      <flavorText>
+        It's not illegal... Is it?
+      </flavorText>
+      <features>
+        <held>false</held>
+        <throwable>false</throwable>
+        <damage>0</damage>
+      </features>
+    </resource>
+    <resource name="Hemp Canvas" ID=4>
+      <flavorText>
+        It'll make a great dress!
+      </flavorText>
+      <features>
+        <held>false</held>
+        <throwable>false</throwable>
+        <damage>0</damage>
+        <craftable>
+          <resource ID=3 amount=6/>
+        </craftable>
+      </features>
+    </resource>    
+  </resources>
+  <tools>
+    
+  </tools>
+</root>

@@ -1,4 +1,5 @@
 /// @description Initialize the button
+name = "";
 sprite = noone;
 spriteID = 0;
 object = noone;

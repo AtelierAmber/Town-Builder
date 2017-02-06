@@ -1,36 +1,24 @@
 /// @description Initialize the menu
-#macro OBJECT 0
-#macro SPRITE 1
-#macro SPRITE_ID 2
 
 //Menu Vars
 menuOpen = false;
-constructables[0,OBJECT] = oCampfire;
-constructables[0,SPRITE] = sCampfire;
-constructables[0,SPRITE_ID] = 1;
-
-constructables[1,OBJECT] = oTent;
-constructables[1,SPRITE] = sTent;
-constructables[1,SPRITE_ID] = 0;
-
-constructables[2,OBJECT] = oChest;
-constructables[2,SPRITE] = sSmallChest;
-constructables[2,SPRITE_ID] = 0;
-
-constructables[3,OBJECT] = oFence;
-constructables[3,SPRITE] = sShortFence;
-constructables[3,SPRITE_ID] = 0;
+constructables = loadJSON("Constructables.json");
+currentEra = 1;
 
 menu_width = 120;
 num_elems_wide = 3;
-spacing = (menu_width - (num_elems_wide * 30) - 8) / num_elems_wide;
 
-for(var i = 0; i < array_height_2d(constructables); ++i){
+spacing = (menu_width - (num_elems_wide * 30) - 8) / num_elems_wide;
+for(var i = 0; i < ds_list_size(ds_map_find_value(constructables, "ERA1")); ++i){
   var button = instance_create_depth(i%num_elems_wide, floor(i/num_elems_wide), global.GUILayer, oMenuButton);
   with(button){
-    sprite = other.constructables[i, SPRITE];
-    object = other.constructables[i, OBJECT];
-    spriteID = other.constructables[i, SPRITE_ID];
+    name = ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "NAME");
+    object = asset_get_index(ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "OBJECT"));
+    sprite = asset_get_index(ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "SPRITE"));
+    spriteID = real(ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "SPRITE_ID"));
+    if(object == -1 || sprite == -1 || spriteID == -1){
+      show_error("Object " + string(i) + " has incorrect data.", true);
+    }
     menuParent = other;
     x = ((30 + menuParent.spacing)*ix) + 6;
     y = (iy*(30 + menuParent.spacing)) + 58;

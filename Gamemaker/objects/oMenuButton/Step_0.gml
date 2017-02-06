@@ -1,6 +1,5 @@
 /// @description Move in relation to the view pos
 guiScale = oCamera.cameraWidth/window_get_width();
-show_debug_message(guiScale);
 
 image_xscale = guiScale;
 image_yscale = guiScale;

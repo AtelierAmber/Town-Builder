@@ -1,0 +1,49 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<TechTree>
+  <!------Taking Root Era------->
+  <Era name="Taking Root" depends="">
+    <tech name="Gardening">
+      <depends>
+      </depends>
+      <flavorText>
+        Unlock the power of life!
+      </flavorText>
+      <description>
+        You're eventually going to run out of berries to eat right? Just plant some
+        bushes out back!
+      </description>
+      <unlocks>
+        <constructable name="Fence"/>
+        <constructable name="CompostBin"/>
+        <object name="Fertilizer"/>
+        <object name=""/>
+        <object name="Seed"/>
+        <tool name="hoe"/>
+        <profession name="farmer"/>
+      </unlocks>
+    </tech>
+    <tech name="Improved Cultivation">
+      <depends>
+        <techDep name="Gardening"/>
+      </depends>
+      <flavorText>
+        The power of the Hoe compells thee!      
+      </flavorText>
+      <description>
+        Your skills with gardening have increased! Your plants grow with twice the
+        vigor and your able to keep more plants under control!
+      </description>
+    </tech>
+    <tech name="">
+      <depends>
+      </depends>
+    </tech>
+  </Era>
+  
+  <!------Classical Era------->
+  <Era name="Classical" depends="Taking Root">
+    <tech name="">
+    
+    </tech>
+  </Era>
+</TechTree>
