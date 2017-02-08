@@ -61,7 +61,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 60,
+    "height": 42,
     "layers": [
         {
             "id": "9e6b15df-73f2-4233-abeb-8d7bbe643e11",
@@ -82,7 +82,7 @@
     "swatchColours": null,
     "textureGroup": 0,
     "type": 0,
-    "width": 60,
-    "xorig": 30,
-    "yorig": 59
+    "width": 48,
+    "xorig": 24,
+    "yorig": 41
 }

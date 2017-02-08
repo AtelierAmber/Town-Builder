@@ -1,11 +1,11 @@
 /// @description Initialize the camera
-#macro DEFAULT_WIDTH 1024
-#macro DEFAULT_HEIGHT 770
+#macro DEFAULT_WIDTH 1536
+#macro DEFAULT_HEIGHT 1152
 audio_listener_position(0, 0, 0);
 audio_listener_orientation(0, 1000, 0, 0, 0, 1);
 
-cameraWidth = 512;
-cameraHeight = 384;
+cameraWidth = 0;
+cameraHeight = 0;
 cameraZoom = 1;
 
 panX = 0;
