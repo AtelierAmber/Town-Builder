@@ -21,9 +21,114 @@
       "RESOURCES" : {},
       "ANIMATED" : 0
     },{
+      "NAME" : "Large Chest", 
+      "OBJECT" : "oChest", 
+      "SPRITE" : "sLargeChest", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
       "NAME" : "Fence", 
       "OBJECT" : "oFence", 
       "SPRITE" : "sTallFence", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Fence", 
+      "OBJECT" : "oFence", 
+      "SPRITE" : "sTallFence", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Cooking Spicket", 
+      "OBJECT" : "oSpicket", 
+      "SPRITE" : "sSpicket", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0 //probably will be animated
+    },{
+      "NAME" : "Handheld Torch", 
+      "OBJECT" : "oTorch", 
+      "SPRITE" : "sTorchHeld", 
+      "SPRITE_ID" : 1, 
+      "RESOURCES" : {},
+      "ANIMATED" : 1
+    },{
+      "NAME" : "Standing Torch", 
+      "OBJECT" : "oTorch", 
+      "SPRITE" : "sTorchStanding", 
+      "SPRITE_ID" : 1, 
+      "RESOURCES" : {},
+      "ANIMATED" : 1
+    },{
+      "NAME" : "Sleeping Bag", 
+      "OBJECT" : "oSleepingBag", 
+      "SPRITE" : "sSleepingBag", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Carpenter's Bench", 
+      "OBJECT" : "oCarpenterBench", 
+      "SPRITE" : "sCarpenterBench", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Stack of Logs", 
+      "OBJECT" : "oLog", 
+      "SPRITE" : "sLogStack", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Log", //is this one necessary? or is it going to be
+      "OBJECT" : "oLog", //a stack logs with alternate sprite?
+      "SPRITE" : "sLogStack", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Barrel", 
+      "OBJECT" : "oBarrel", 
+      "SPRITE" : "sBarrel", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Crate", 
+      "OBJECT" : "oCrate", 
+      "SPRITE" : "sCrate", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Box", 
+      "OBJECT" : "oCrate", //maybe oBox 
+      "SPRITE" : "sBox", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Fish Rack", 
+      "OBJECT" : "oFishRack", 
+      "SPRITE" : "sFishRack", 
+      "SPRITE_ID" : 1, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Boat", 
+      "OBJECT" : "oBoat", 
+      "SPRITE" : "sBoat", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {},
+      "ANIMATED" : 0
+    },{
+      "NAME" : "Dock", 
+      "OBJECT" : "oDock", 
+      "SPRITE" : "sDock", 
       "SPRITE_ID" : 0, 
       "RESOURCES" : {},
       "ANIMATED" : 0
