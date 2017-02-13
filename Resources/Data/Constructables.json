@@ -21,23 +21,9 @@
       "RESOURCES" : {},
       "ANIMATED" : 0
     },{
-      "NAME" : "Large Chest", 
-      "OBJECT" : "oChest", 
-      "SPRITE" : "sLargeChest", 
-      "SPRITE_ID" : 0, 
-      "RESOURCES" : {},
-      "ANIMATED" : 0
-    },{
       "NAME" : "Fence", 
       "OBJECT" : "oFence", 
-      "SPRITE" : "sTallFence", 
-      "SPRITE_ID" : 0, 
-      "RESOURCES" : {},
-      "ANIMATED" : 0
-    },{
-      "NAME" : "Fence", 
-      "OBJECT" : "oFence", 
-      "SPRITE" : "sTallFence", 
+      "SPRITE" : "sFence", 
       "SPRITE_ID" : 0, 
       "RESOURCES" : {},
       "ANIMATED" : 0
@@ -48,13 +34,6 @@
       "SPRITE_ID" : 0, 
       "RESOURCES" : {},
       "ANIMATED" : 0 //probably will be animated
-    },{
-      "NAME" : "Handheld Torch", 
-      "OBJECT" : "oTorch", 
-      "SPRITE" : "sTorchHeld", 
-      "SPRITE_ID" : 1, 
-      "RESOURCES" : {},
-      "ANIMATED" : 1
     },{
       "NAME" : "Standing Torch", 
       "OBJECT" : "oTorch", 
@@ -84,13 +63,6 @@
       "RESOURCES" : {},
       "ANIMATED" : 0
     },{
-      "NAME" : "Log", //is this one necessary? or is it going to be
-      "OBJECT" : "oLog", //a stack logs with alternate sprite?
-      "SPRITE" : "sLogStack", 
-      "SPRITE_ID" : 0, 
-      "RESOURCES" : {},
-      "ANIMATED" : 0
-    },{
       "NAME" : "Barrel", 
       "OBJECT" : "oBarrel", 
       "SPRITE" : "sBarrel", 
@@ -101,13 +73,6 @@
       "NAME" : "Crate", 
       "OBJECT" : "oCrate", 
       "SPRITE" : "sCrate", 
-      "SPRITE_ID" : 0, 
-      "RESOURCES" : {},
-      "ANIMATED" : 0
-    },{
-      "NAME" : "Box", 
-      "OBJECT" : "oCrate", //maybe oBox 
-      "SPRITE" : "sBox", 
       "SPRITE_ID" : 0, 
       "RESOURCES" : {},
       "ANIMATED" : 0
