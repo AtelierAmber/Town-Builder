@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0fb7e81f-660e-45f9-bd13-27ea7b6775b8",
+            "Value": {
+                "id": "3233f1a5-5eba-4d86-9a8b-377275e0e596",
+                "resourcePath": "objects\\oUI\\oUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1663b9c1-132b-4e8a-bdaa-9117fda1a47b",
             "Value": {
                 "id": "de8b8337-66c2-444e-b786-ffe67ebb2c4e",
@@ -59,14 +67,6 @@
             "Value": {
                 "id": "3417fc45-5d58-4529-b057-5fb7287a443b",
                 "resourcePath": "objects\\oChest\\oChest.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "37780c4b-ee26-4115-ad04-ecfad1dbaf6b",
-            "Value": {
-                "id": "45a60c57-86dd-4efc-9a59-34b4d86d1f6c",
-                "resourcePath": "objects\\oMenuButton\\oMenuButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "46aef428-66d4-48e6-8dfc-17ffbcb2f5b6",
-            "Value": {
-                "id": "0eeac4f0-0790-46a5-b39b-d459319b930b",
-                "resourcePath": "views\\7b4af03a-4c2f-4362-b5cf-34032df5591e-room.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "472e64eb-7739-432e-b6b4-7c63da5e48c1",
             "Value": {
                 "id": "9e710a15-2b77-45fe-a3a3-ffe0cc01cbdb",
@@ -148,6 +140,14 @@
                 "id": "4632d4e5-25d2-478b-81ba-2c03e240f3a8",
                 "resourcePath": "sounds\\sfxIgnite\\sfxIgnite.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5200c887-ae9b-4b14-b8c1-1529c9a52f0a",
+            "Value": {
+                "id": "f19ff352-a38b-48e4-b0e4-f53ba2784364",
+                "resourcePath": "views\\5200c887-ae9b-4b14-b8c1-1529c9a52f0a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -188,14 +188,6 @@
                 "id": "e4713827-6dd0-44b9-982c-fdc10e9413d9",
                 "resourcePath": "views\\5c4dde01-c739-45fc-af76-4540e8e68e62.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5cbf61d8-c92c-40de-98e0-dfb6b0685bf5",
-            "Value": {
-                "id": "56689f6c-872d-4276-905b-fef86fd72d0f",
-                "resourcePath": "sprites\\sMenuButtonMask\\sMenuButtonMask.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -260,14 +252,6 @@
                 "id": "bf9481b6-45de-458d-b661-33d08e5465b5",
                 "resourcePath": "objects\\oFence\\oFence.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6dc07c44-30de-4e12-8aa5-9209662461ed",
-            "Value": {
-                "id": "61756945-e692-4e3d-8398-df01cb6e1b15",
-                "resourcePath": "sprites\\sBackground\\sBackground.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

@@ -2,6 +2,5 @@
 /// @description ternary operator
 if(argument0){
   return argument1;
-}else{
-  return argument2;
 }
+return argument2;

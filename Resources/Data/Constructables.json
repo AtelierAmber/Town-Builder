@@ -23,6 +23,12 @@
       "SPRITE" : "sTallFence", 
       "SPRITE_ID" : 0, 
       "RESOURCES" : {}
+    },{
+      "NAME" : "Fence", 
+      "OBJECT" : "oFence", 
+      "SPRITE" : "sTallFence", 
+      "SPRITE_ID" : 0, 
+      "RESOURCES" : {}
     }
   ]
 }

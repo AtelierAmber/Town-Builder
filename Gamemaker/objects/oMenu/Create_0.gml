@@ -5,22 +5,20 @@ menuOpen = false;
 constructables = loadJSON("Constructables.json");
 currentEra = 1;
 
-menu_width = 120;
-num_elems_wide = 3;
+num_elems_wide = 5;
+num_elems_high = 5;
+item_button_size = 40;
+spacing = 5;
 
-spacing = (menu_width - (num_elems_wide * 30) - 8) / num_elems_wide;
 for(var i = 0; i < ds_list_size(ds_map_find_value(constructables, "ERA1")); ++i){
-  var button = instance_create_depth(i%num_elems_wide, floor(i/num_elems_wide), global.GUILayer, oMenuButton);
-  with(button){
-    name = ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "NAME");
-    object = asset_get_index(ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "OBJECT"));
-    sprite = asset_get_index(ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "SPRITE"));
-    spriteID = real(ds_map_find_value(ds_list_find_value(ds_map_find_value(other.constructables, "ERA1"), i), "SPRITE_ID"));
-    if(object == -1 || sprite == -1 || spriteID == -1){
-      show_error("Object " + string(i) + " has incorrect data.", true);
-    }
-    menuParent = other;
-    x = ((30 + menuParent.spacing)*ix) + 6;
-    y = (iy*(30 + menuParent.spacing)) + 58;
+  //Check for incorrect data
+  var era = constructables[? "ERA1"];
+  var build = era[| i];
+  var object = asset_get_index(build[? "OBJECT"]);
+  var sprite = asset_get_index(build[? "SPRITE"]);
+  var spriteID = real(build[? "SPRITE_ID"]);
+  var animated = real(build[? "ANIMATED"]);
+  if(object == -1 || sprite == -1 || spriteID == -1 || animated == -1){
+    show_error("Object " + string(i) + " has incorrect data.", true);
   }
 }
