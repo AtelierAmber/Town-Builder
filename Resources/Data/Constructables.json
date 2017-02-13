@@ -4,31 +4,29 @@
       "OBJECT" : "oCampfire", 
       "SPRITE" : "sCampfire", 
       "SPRITE_ID" : 1, 
-      "RESOURCES" : {"0" : 2, "2" : 1, "1" : 1}
+      "RESOURCES" : {"0" : 2, "2" : 1, "1" : 1},
+      "ANIMATED" : 1
     },{
       "NAME" : "Tent", 
       "OBJECT" : "oTent", 
       "SPRITE" : "sTent", 
       "SPRITE_ID" : 0, 
-      "RESOURCES" : {"0" : 2, "4" : 2}
+      "RESOURCES" : {"0" : 2, "4" : 2},
+      "ANIMATED" : 0
     },{
       "NAME" : "Chest", 
       "OBJECT" : "oChest", 
       "SPRITE" : "sSmallChest", 
       "SPRITE_ID" : 0, 
-      "RESOURCES" : {}
+      "RESOURCES" : {},
+      "ANIMATED" : 0
     },{
       "NAME" : "Fence", 
       "OBJECT" : "oFence", 
       "SPRITE" : "sTallFence", 
       "SPRITE_ID" : 0, 
-      "RESOURCES" : {}
-    },{
-      "NAME" : "Fence", 
-      "OBJECT" : "oFence", 
-      "SPRITE" : "sTallFence", 
-      "SPRITE_ID" : 0, 
-      "RESOURCES" : {}
+      "RESOURCES" : {},
+      "ANIMATED" : 0
     }
   ]
 }
